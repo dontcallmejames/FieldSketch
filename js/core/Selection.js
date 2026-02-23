@@ -1,4 +1,4 @@
-// SiteSketch - Selection Module
+// FieldSketch - Selection Module
 
 import { pointInRect, distance } from '../utils/math.js';
 

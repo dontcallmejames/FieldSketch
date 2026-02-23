@@ -1,4 +1,4 @@
-// SiteSketch - Project Dialog UI
+// FieldSketch - Project Dialog UI
 
 export class ProjectDialog {
     constructor(app) {

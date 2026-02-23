@@ -1,4 +1,4 @@
-// SiteSketch - Text Tool
+// FieldSketch - Text Tool
 
 import { Tool } from './Tool.js';
 import { TextLabel } from '../objects/TextLabel.js';

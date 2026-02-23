@@ -1,4 +1,4 @@
-// SiteSketch - Callout Tool
+// FieldSketch - Callout Tool
 
 import { Tool } from './Tool.js';
 import { Callout } from '../objects/Callout.js';

@@ -1,4 +1,4 @@
-// SiteSketch - Image Object (imported photos/PDFs as backgrounds)
+// FieldSketch - Image Object (imported photos/PDFs as backgrounds)
 
 import { DrawObject } from './DrawObject.js';
 import { pointInRect } from '../utils/math.js';

@@ -1,6 +1,6 @@
 {
-    "name": "SiteSketch",
-    "short_name": "SiteSketch",
+    "name": "FieldSketch",
+    "short_name": "FieldSketch",
     "description": "Technical site inspection drawing and annotation tool",
     "start_url": "./index.html",
     "display": "standalone",

@@ -1,4 +1,4 @@
-// SiteSketch - Export Dialog UI
+// FieldSketch - Export Dialog UI
 
 export class ExportDialog {
     constructor(app) {

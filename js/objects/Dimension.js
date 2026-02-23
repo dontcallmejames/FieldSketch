@@ -1,4 +1,4 @@
-// SiteSketch - Dimension Object
+// FieldSketch - Dimension Object
 
 import { DrawObject } from './DrawObject.js';
 import { distance, angle, pointToLineDistance, formatNumber } from '../utils/math.js';

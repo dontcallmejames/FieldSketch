@@ -1,4 +1,4 @@
-// SiteSketch - Text Label Object
+// FieldSketch - Text Label Object
 
 import { DrawObject } from './DrawObject.js';
 import { pointInRect } from '../utils/math.js';

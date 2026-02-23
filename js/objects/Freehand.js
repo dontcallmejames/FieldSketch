@@ -1,4 +1,4 @@
-// SiteSketch - Freehand Stroke Object
+// FieldSketch - Freehand Stroke Object
 
 import { DrawObject } from './DrawObject.js';
 import { pointToLineDistance, boundingBox, simplifyPath } from '../utils/math.js';

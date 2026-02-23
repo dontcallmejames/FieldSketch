@@ -1,4 +1,4 @@
-// SiteSketch - Symbol Object (Predefined inspection/engineering symbols)
+// FieldSketch - Symbol Object (Predefined inspection/engineering symbols)
 
 import { DrawObject } from './DrawObject.js';
 import { pointInRect } from '../utils/math.js';

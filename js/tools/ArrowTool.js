@@ -1,4 +1,4 @@
-// SiteSketch - Arrow Tool
+// FieldSketch - Arrow Tool
 
 import { Tool } from './Tool.js';
 import { Arrow } from '../objects/Arrow.js';

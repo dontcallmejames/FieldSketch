@@ -1,4 +1,4 @@
-// SiteSketch - Arc Tool (3-point arc: center, start, end)
+// FieldSketch - Arc Tool (3-point arc: center, start, end)
 
 import { Tool } from './Tool.js';
 import { Arc } from '../objects/Arc.js';

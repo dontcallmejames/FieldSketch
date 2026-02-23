@@ -1,4 +1,4 @@
-// SiteSketch - Circle/Ellipse Object
+// FieldSketch - Circle/Ellipse Object
 
 import { DrawObject } from './DrawObject.js';
 import { distance } from '../utils/math.js';

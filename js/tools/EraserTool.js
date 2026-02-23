@@ -1,4 +1,4 @@
-// SiteSketch - Eraser Tool
+// FieldSketch - Eraser Tool
 
 import { Tool } from './Tool.js';
 import { RemoveObjectCommand } from '../core/History.js';

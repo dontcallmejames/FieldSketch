@@ -1,4 +1,4 @@
-// SiteSketch - Arc Object
+// FieldSketch - Arc Object
 
 import { DrawObject } from './DrawObject.js';
 import { distance, angle } from '../utils/math.js';

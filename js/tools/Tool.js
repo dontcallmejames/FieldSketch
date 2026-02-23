@@ -1,4 +1,4 @@
-// SiteSketch - Base Tool Class
+// FieldSketch - Base Tool Class
 
 export class Tool {
     constructor(name, app) {

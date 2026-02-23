@@ -1,4 +1,4 @@
-// SiteSketch - Circle Tool
+// FieldSketch - Circle Tool
 
 import { Tool } from './Tool.js';
 import { Circle } from '../objects/Circle.js';

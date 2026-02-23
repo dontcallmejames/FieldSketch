@@ -1,4 +1,4 @@
-// SiteSketch - Line Object
+// FieldSketch - Line Object
 
 import { DrawObject } from './DrawObject.js';
 import { pointToLineDistance } from '../utils/math.js';

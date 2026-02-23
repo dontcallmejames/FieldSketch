@@ -1,4 +1,4 @@
-// SiteSketch - Canvas Module (Viewport, Pan/Zoom, Coordinate Transforms)
+// FieldSketch - Canvas Module (Viewport, Pan/Zoom, Coordinate Transforms)
 
 import { TouchHandler } from '../utils/touch.js';
 import { clamp } from '../utils/math.js';

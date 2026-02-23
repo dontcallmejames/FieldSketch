@@ -1,4 +1,4 @@
-// SiteSketch - Dimension Tool
+// FieldSketch - Dimension Tool
 
 import { Tool } from './Tool.js';
 import { Dimension } from '../objects/Dimension.js';

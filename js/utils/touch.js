@@ -1,4 +1,4 @@
-// SiteSketch - Touch/Stylus Gesture Recognition
+// FieldSketch - Touch/Stylus Gesture Recognition
 
 export class TouchHandler {
     constructor(element, callbacks) {

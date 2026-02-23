@@ -1,4 +1,4 @@
-// SiteSketch - Base DrawObject Class
+// FieldSketch - Base DrawObject Class
 
 import { uid } from '../utils/math.js';
 

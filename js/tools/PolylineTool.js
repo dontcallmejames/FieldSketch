@@ -1,4 +1,4 @@
-// SiteSketch - Polyline/Polygon Tool
+// FieldSketch - Polyline/Polygon Tool
 
 import { Tool } from './Tool.js';
 import { Polyline } from '../objects/Polyline.js';

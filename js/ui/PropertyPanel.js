@@ -1,4 +1,4 @@
-// SiteSketch - Property Panel UI
+// FieldSketch - Property Panel UI
 
 export class PropertyPanel {
     constructor(app) {

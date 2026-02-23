@@ -1,4 +1,4 @@
-// SiteSketch - Symbol Tool
+// FieldSketch - Symbol Tool
 
 import { Tool } from './Tool.js';
 import { Symbol, SYMBOL_DEFS } from '../objects/Symbol.js';

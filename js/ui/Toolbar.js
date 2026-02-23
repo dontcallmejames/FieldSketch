@@ -1,4 +1,4 @@
-// SiteSketch - Toolbar UI Module
+// FieldSketch - Toolbar UI Module
 
 export class Toolbar {
     constructor(app) {

@@ -1,4 +1,4 @@
-// SiteSketch - Rectangle Tool
+// FieldSketch - Rectangle Tool
 
 import { Tool } from './Tool.js';
 import { Rectangle } from '../objects/Rectangle.js';

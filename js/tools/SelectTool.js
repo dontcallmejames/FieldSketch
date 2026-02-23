@@ -1,4 +1,4 @@
-// SiteSketch - Select Tool
+// FieldSketch - Select Tool
 
 import { Tool } from './Tool.js';
 import { MoveObjectCommand } from '../core/History.js';

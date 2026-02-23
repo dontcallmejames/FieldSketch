@@ -1,4 +1,4 @@
-// SiteSketch - Arrow Object
+// FieldSketch - Arrow Object
 
 import { DrawObject } from './DrawObject.js';
 import { pointToLineDistance, angle } from '../utils/math.js';

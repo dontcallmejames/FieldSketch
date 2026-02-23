@@ -1,4 +1,4 @@
-// SiteSketch - Rectangle Object
+// FieldSketch - Rectangle Object
 
 import { DrawObject } from './DrawObject.js';
 import { pointInRect, pointToLineDistance } from '../utils/math.js';

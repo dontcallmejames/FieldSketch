@@ -1,4 +1,4 @@
-// SiteSketch - Polyline/Polygon Object
+// FieldSketch - Polyline/Polygon Object
 
 import { DrawObject } from './DrawObject.js';
 import { pointToLineDistance, boundingBox } from '../utils/math.js';

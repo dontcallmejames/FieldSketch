@@ -1,4 +1,4 @@
-// SiteSketch - Callout Object (Box with leader line)
+// FieldSketch - Callout Object (Box with leader line)
 
 import { DrawObject } from './DrawObject.js';
 import { pointInRect, pointToLineDistance } from '../utils/math.js';

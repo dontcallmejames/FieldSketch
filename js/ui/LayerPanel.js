@@ -1,4 +1,4 @@
-// SiteSketch - Layer Panel UI
+// FieldSketch - Layer Panel UI
 
 export class LayerPanel {
     constructor(app) {

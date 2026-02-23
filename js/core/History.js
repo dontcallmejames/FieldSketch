@@ -1,4 +1,4 @@
-// SiteSketch - History Module (Command Pattern Undo/Redo)
+// FieldSketch - History Module (Command Pattern Undo/Redo)
 
 export class History {
     constructor(app) {

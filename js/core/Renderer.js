@@ -1,4 +1,4 @@
-// SiteSketch - Renderer Module
+// FieldSketch - Renderer Module
 
 export class Renderer {
     constructor(app) {

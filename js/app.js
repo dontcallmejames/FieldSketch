@@ -1,4 +1,4 @@
-// SiteSketch - Main Application Entry Point
+// FieldSketch - Main Application Entry Point
 
 import { Canvas } from './core/Canvas.js';
 import { Grid } from './core/Grid.js';
@@ -142,7 +142,7 @@ class App {
         this.requestRender();
         this.updateGridStatus();
 
-        console.log('SiteSketch initialized');
+        console.log('FieldSketch initialized');
     }
 
     get activeLayer() {
@@ -338,4 +338,4 @@ class App {
 // Boot
 const app = new App();
 window._app = app; // expose for debugging
-app.init().catch(err => console.error('Failed to initialize SiteSketch:', err));
+app.init().catch(err => console.error('Failed to initialize FieldSketch:', err));

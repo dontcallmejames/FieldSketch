@@ -1,4 +1,4 @@
-// SiteSketch - Grid Module
+// FieldSketch - Grid Module
 
 export class Grid {
     constructor(app) {

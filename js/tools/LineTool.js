@@ -1,4 +1,4 @@
-// SiteSketch - Line Tool
+// FieldSketch - Line Tool
 
 import { Tool } from './Tool.js';
 import { Line } from '../objects/Line.js';

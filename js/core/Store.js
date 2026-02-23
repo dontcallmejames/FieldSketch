@@ -1,6 +1,6 @@
-// SiteSketch - IndexedDB Storage Module
+// FieldSketch - IndexedDB Storage Module
 
-const DB_NAME = 'SiteSketchDB';
+const DB_NAME = 'FieldSketchDB';
 const DB_VERSION = 1;
 const PROJECTS_STORE = 'projects';
 

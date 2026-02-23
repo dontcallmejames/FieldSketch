@@ -1,4 +1,4 @@
-// SiteSketch - Freehand Tool
+// FieldSketch - Freehand Tool
 
 import { Tool } from './Tool.js';
 import { Freehand } from '../objects/Freehand.js';

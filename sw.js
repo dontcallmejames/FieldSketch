@@ -1,6 +1,6 @@
-// SiteSketch - Service Worker
+// FieldSketch - Service Worker
 
-const CACHE_NAME = 'sitesketch-v1';
+const CACHE_NAME = 'fieldsketch-v1';
 const ASSETS = [
     './',
     './index.html',
