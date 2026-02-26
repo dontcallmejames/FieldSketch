@@ -133,7 +133,12 @@ class App {
         });
 
         // Initialize storage
-        await this.store.init();
+        try {
+            await this.store.init();
+        } catch (err) {
+            console.error('Storage init failed:', err);
+            this.setStatus('⚠️ Storage unavailable — changes will not be saved');
+        }
 
         // Center viewport
         this.canvas.resetView();
@@ -141,6 +146,20 @@ class App {
         // Initial render
         this.requestRender();
         this.updateGridStatus();
+
+        // Empty state — show New Project dialog if no saved projects exist
+        try {
+            const projects = await this.store.listProjects();
+            if (projects.length === 0) {
+                setTimeout(() => this.projectDialog.showNewProject(), 300);
+            } else {
+                // Load the most recently updated project automatically
+                const latest = projects.sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0))[0];
+                await this.loadProject(latest.id);
+            }
+        } catch (err) {
+            // Storage unavailable — just start fresh silently
+        }
 
         console.log('FieldSketch initialized');
     }
@@ -337,5 +356,4 @@ class App {
 
 // Boot
 const app = new App();
-window._app = app; // expose for debugging
 app.init().catch(err => console.error('Failed to initialize FieldSketch:', err));

@@ -732,3 +732,39 @@ html, body {
         display: none;
     }
 }
+
+/* PWA Install Banner */
+.install-banner {
+    position: fixed;
+    bottom: 36px; /* above status bar */
+    left: 0;
+    right: 0;
+    background: #2a2a4a;
+    color: #e0e0ff;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    font-size: 13px;
+    z-index: 1000;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+.install-banner.hidden { display: none; }
+.install-banner button {
+    background: #5b5bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 14px;
+    cursor: pointer;
+    font-size: 13px;
+    white-space: nowrap;
+}
+.install-banner button.dismiss {
+    background: transparent;
+    color: #aaa;
+    padding: 4px 8px;
+    font-size: 18px;
+    margin-left: auto;
+}
+.install-banner span { flex: 1; }
